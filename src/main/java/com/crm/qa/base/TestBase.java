@@ -51,7 +51,7 @@ public class TestBase {
 		
 		
 		e_driver = new EventFiringWebDriver(driver);
-		// Now create object of EventListerHandler to register it with EventFiringWebDriver
+		
 		eventListener = new WebEventListener();
 		e_driver.register(eventListener);
 		driver = e_driver;
